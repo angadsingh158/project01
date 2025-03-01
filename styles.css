@@ -1,7 +1,69 @@
-div.headerBox {
-    background: url(final-fantasy-vii-final-fantasy-vii-remake-square-enix-video-games-cloud-strife-hd-wallpaper-preview.jpg);
-    height: auto;
-    width: auto;
+body {
+    background-color: #2A282C;
+}
+
+.blue {
+    color: #5499B5;
+    padding: 5px;
+}
+
+div.topBox {
+    background-image: url(final-fantasy-vii-final-fantasy-vii-remake-square-enix-video-games-cloud-strife-hd-wallpaper-preview.jpg);
+    background-size: 1440px;
+    width: 1440px;
+    height: 600px;
     padding: 0%;
-    margin: 0;
+    margin: auto;
+}
+
+.navbar {
+    width: 1440px;
+    height: 75px;
+    padding: 0px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 75%);
+}
+
+.topBarList ul{
+    list-style-type: none;
+    padding: 0px;
+    margin-left: 80px;
+}
+
+.topBarList li {
+    float: right;
+    margin-right: 200px;
+}
+
+div.bodyOne {
+    color: #54B484;
+    margin-left: 35px;
+}
+
+div.bodyTwo {
+    color: #54B484;
+    text-align: right;
+    margin-right: 35px;
+}
+
+div.bottomBox {
+    background-color: #54B484;
+    color: #2A282C;
+    width: 1440px;
+    height: 300px;
+    padding: 0%;
+    margin: auto;
+}
+
+.bottomBox ul {
+    list-style-type: none;
+}
+
+.bottomCenter {
+    text-align: center;
+    
+}
+
+.font {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
